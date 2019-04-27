@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Poppins');
+
+.bio {
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 840px;
+    text-align: center;
+}
+
+.bio h1 span {
+    display: block;
+}
+
+body {
+    font-family: 'Poppins'
+}
+
+h1 {
+    color: #4A4A4A;
+    font-weight: normal;
+    font-size:17px;
+    font-family: Poppins;
+  }
+  h2 {
+    color: #E8C429;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Poppins;
+}
+h3 {
+  color: #4A4A4A;
+  font-weight: regular;
+  font-size: 16px;
+  font-family: Poppins;
+}
+h4 {
+  color: #E8C429;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: Poppins;
+}
+
+#navbar-brand {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 10;
+}
+.navbar-item {
+    padding-right: 15px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    padding: 40px 0;
+    background-color: #e9ecef
+}
+.contact-text {
+ width: 50%;
+}
+
+.contact-subjects {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.subject-top {
+display: flex;
+justify-content: space-evenly;
+width: 50%;
+}
+
+.subject-bottom {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media {
+    border-top: 1px solid #D8D8D8;
+    padding: 0 45px;
+}
+
+.social-media li {
+    padding: 10px 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #9B9B9B;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #E8C429;
+}
+
+.contact-subjects img { 
+    height: 50px;
+    margin: 10px;
+
+}
+
+.projects {
+    max-width: 80%;
+    margin: 0 auto;
+    /* margin-bottom: 100px; */
+}
+
+.projects img {
+    max-width: 100%;
+}
+
+.img-container {
+    margin-top: 30px;
+
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+  position: relative;
+}
+
+.img-container img {
+    position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+   object-fit: cover;
+   }
+
+.img-container:hover {
+   transition: all 0.17s ease-in-out;
+    transform: translateY(5px);
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5)
+}
+
+.header {
+    background-color:white
+}
+
+.padding-container {
+    padding: 50px 100px 100px 100px;
+}
+.list.li {
+    list-style-type: circle; 
+
+}
