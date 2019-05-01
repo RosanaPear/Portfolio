@@ -82,14 +82,14 @@ body {
 h1 {
     color: #4A4A4A;
     font-weight: normal;
-    font-size:20px;
+    font-size:24px;
     font-family: 'CircularStd';
   }
 
 h2 {
     color: #E8C429;
     font-weight: bold;
-    font-size: 26px;
+    font-size: 28px;
     font-family: 'CircularStd';
     margin-top: 30px;
 }
@@ -111,7 +111,15 @@ h4 {
 h5 {
     font-weight: bold;
     font-size: 17px;
-    color: #4A4A4A;;
+    color: #4A4A4A;
+}
+
+h6 {
+    color: #63ECDA;
+    font-weight: 400;
+    font-size: 26px;
+    font-family:'CircularStd';
+    
 }
 
 .text-about {
@@ -258,7 +266,7 @@ a:hover {
 }
 
 .overlay:hover {
-    opacity: 0.8;
+    opacity: 0.9;
     color: white;
     transition: all 0.17s ease-in-out;
 }
