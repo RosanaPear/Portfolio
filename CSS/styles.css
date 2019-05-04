@@ -117,10 +117,19 @@ h5 {
 h6 {
     color: #63ECDA;
     font-weight: 400;
-    font-size: 26px;
+    font-size: 90px;
     font-family:'CircularStd';
-    
+
 }
+
+h7 {
+    color: #71C4D1;
+    font-weight: 400;
+    font-size: 90px;
+    font-family:'CircularStd';
+
+}
+
 
 .text-about {
     font-weight: 400;
@@ -279,7 +288,7 @@ a:hover {
 .img-container:hover {
    transition: all 0.17s ease-in-out;
    transform: translateY(5px);
-   box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+   box-shadow: 5px 5px 20px rgba(148, 145, 145, 0.5);
 
 }
 
@@ -325,4 +334,23 @@ a:hover {
     width:68%;
     display: flex;
     justify-content: space-between;
+}
+
+.content-project1{
+    padding: 0px 250px;
+    padding-top: 120px;
+    padding-bottom: 70px;
+
+   
+
+}
+.first-project-image {
+    padding-top: 30px;
+    
+}
+
+.carousel-inner img {
+    width: auto;
+    height: auto;
+    align-content: center
 }
